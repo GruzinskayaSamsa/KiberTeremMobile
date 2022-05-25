@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CyberTeremMobile</string>
+
+    <string name="main">Главная</string>
+    <string name="settings">Настройки</string>
+    <string name="availableDevices">Доступные устройства</string>
 </resources>
