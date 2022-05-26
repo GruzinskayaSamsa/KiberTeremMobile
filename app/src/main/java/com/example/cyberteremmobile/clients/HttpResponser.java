@@ -20,6 +20,10 @@ import java.util.Scanner;
 
 public class HttpResponser extends AsyncTask<String, String, String> {
 
+    String jsonInputString;
+
+    public void setJson(String json) {this.jsonInputString = json;}
+
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
